@@ -5,11 +5,11 @@ const Navbar = () => {
   const links = (
     <div className="flex items-center  gap-3 lg:flex-row flex-col">
       <NavLink
-        to="#education"
+        to="education"
         className={({ isActive }) =>
           isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg'
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg '
+            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
         }
       >
         Education
@@ -18,7 +18,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive
             ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg'
+            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
         }
       >
         Skills
@@ -27,7 +27,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive
             ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg'
+            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
         }
       >
         Projects
@@ -36,7 +36,7 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive
             ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg'
+            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
         }
       >
         Contact
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            className="rounded px-3 font-semibold py-2 bg-[#00adb5] text-white border-none text-sm md:text-lg flex items-center gap-1"
+            className="rounded px-3 font-semibold py-2 bg-[#00adb5] text-white border-none text-sm md:text-lg flex items-center gap-1 hover:transform transition duration-300 hover:scale-110"
             download
             href="/src/assets/Resume-demo.pdf"
           >
