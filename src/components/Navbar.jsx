@@ -1,8 +1,59 @@
-
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+  const links = (
+    <div className="flex items-center  gap-3 lg:flex-row flex-col">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg'
+        }
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="#education"
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg'
+        }
+      >
+        Education
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg'
+        }
+      >
+        Skills
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg'
+        }
+      >
+        Projects
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg'
+        }
+      >
+        Contact
+      </NavLink>
+    </div>
+  );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-[#212428] text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,54 +74,22 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-[#212428] rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link className="text-2xl font-heading">
+          <span className="font-bold text-3xl text-[#00ADB5]">M.</span>Monir
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn bg-[#00adb5] text-white border-none" download href="/src/assets/Resume-demo.pdf">
+          Download Resume
+        </a>
       </div>
     </div>
   );
