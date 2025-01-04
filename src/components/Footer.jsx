@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-[#212428] text-neutral-content items-center p-4 justify-between">
+    <footer className="footer bg-[#212428] text-neutral-content items-center p-4 justify-between border-t">
       <aside className="flex items-center justify-between">
         <Link to='/' className="text-2xl font-heading">
           <span className="font-bold md:text-3xl text-[#00ADB5]">M.</span>Monir
