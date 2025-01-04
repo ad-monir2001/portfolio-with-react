@@ -1,18 +1,9 @@
+import { FiDownload } from 'react-icons/fi';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const links = (
     <div className="flex items-center  gap-3 lg:flex-row flex-col">
-      <NavLink
-        to="/"
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg'
-        }
-      >
-        Home
-      </NavLink>
       <NavLink
         to="#education"
         className={({ isActive }) =>
@@ -53,8 +44,8 @@ const Navbar = () => {
     </div>
   );
   return (
-    <div className=" bg-[#212428] text-white">
-      <div className="w-11/12 mx-auto navbar sticky z-50 top-0">
+    <div className=" bg-[#212428] text-white sticky z-50 top-0">
+      <div className="w-11/12 mx-auto navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -80,7 +71,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link className="text-2xl font-heading">
+          <Link to="/" className="text-2xl font-heading">
             <span className="font-bold md:text-3xl text-[#00ADB5]">M.</span>
             Monir
           </Link>
@@ -90,11 +81,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            className="rounded px-3 font-semibold py-2 bg-[#00adb5] text-white border-none text-sm md:text-lg"
+            className="rounded px-3 font-semibold py-2 bg-[#00adb5] text-white border-none text-sm md:text-lg flex items-center gap-1"
             download
             href="/src/assets/Resume-demo.pdf"
           >
-            Download Resume
+            <FiDownload />
+            Resume
           </a>
         </div>
       </div>

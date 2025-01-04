@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="footer bg-[#212428] text-neutral-content items-center p-4 justify-between">
       <aside className="flex items-center justify-between">
-        <Link className="text-2xl font-heading">
-          <span className="font-bold text-3xl text-[#00ADB5]">M.</span>Monir
+        <Link to='/' className="text-2xl font-heading">
+          <span className="font-bold md:text-3xl text-[#00ADB5]">M.</span>Monir
         </Link>
       </aside>
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
