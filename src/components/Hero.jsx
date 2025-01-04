@@ -30,15 +30,7 @@ const Hero = () => {
             />
           </span>
 
-          <p className="font-body">
-            {' '}
-            A passionate front-end developer with experience creating
-            responsive, user-friendly websites. Proficient in HTML, CSS,
-            JavaScript, React js, and frameworks like Tailwind CSS, I specialize
-            in crafting clean, modern, and intuitive interfaces. Whether you're
-            looking to bring your design to life or improve your website's
-            performance, I'm here to help!"
-          </p>
+          
           <div className="flex gap-4 pt-4">
             <a
               className="rounded px-3 font-semibold py-2 bg-[#00adb5] flex items-center gap-1 justify-center text-white border-none text-sm md:text-lg "

@@ -15,6 +15,16 @@ const Navbar = () => {
         Education
       </NavLink>
       <NavLink
+      to='#about_me'
+        className={({ isActive }) =>
+          isActive
+            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
+            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
+        }
+      >
+        About me
+      </NavLink>
+      <NavLink
         className={({ isActive }) =>
           isActive
             ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
