@@ -8,14 +8,14 @@ import Skills from '../components/Skills';
 
 const Home = () => {
   return (
-    <div className='bg-[#212428]'>
+    <div className="bg-[#212428]">
       <Navbar></Navbar>
-      <div className='min-h-[calc(100vh-132px)]'>
-         <Hero></Hero>
-         <About></About>
-         <Skills></Skills>
-         <Projects></Projects>
-         <Contact></Contact>
+      <div className="min-h-[calc(100vh-132px)]">
+        <Hero></Hero>
+        <About></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
       </div>
       <Footer></Footer>
     </div>

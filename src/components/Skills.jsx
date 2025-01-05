@@ -164,7 +164,7 @@ const Skills = () => {
         </div>
 
         {/* Backend and database */}
-        <p className="italic text-center pt-2 text-4xl font-body text-[#00adb5]">
+        <p className="italic text-center pt-2 text-3xl font-body text-[#00adb5]">
           Backend & Database:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
@@ -230,7 +230,7 @@ const Skills = () => {
           </div>
         </div>
         {/* version control */}
-        <p className="italic text-center pt-2 text-4xl font-body text-[#00adb5]">
+        <p className="italic text-center pt-2 text-3xl font-body text-[#00adb5]">
           Version Control:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
