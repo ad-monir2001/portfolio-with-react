@@ -228,6 +228,42 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      {/* version control */}
+      <p className="italic text-center pt-2 text-4xl font-body text-[#00adb5]">
+        Version Control:
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
+        {/* card */}
+        <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
+          <div className="relative">
+            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+            <img
+              src="/public/git.png"
+              alt="git"
+              className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
+            />
+          </div>
+
+          <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+            Git
+          </p>
+        </div>
+        {/* card */}
+        <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
+          <div className="relative">
+            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+            <img
+              src="/public/github.jpg"
+              alt="github"
+              className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
+            />
+          </div>
+
+          <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+            GitHub
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
