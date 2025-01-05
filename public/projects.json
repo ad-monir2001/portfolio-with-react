@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "technology": ["react.js", "firebase", "tailwind", "mongodb"],
+    "description": "The purpose of the car rental system website is to offer a seamless, user-friendly platform that simplifies the process of renting vehicles. Designed for individuals and businesses, the system ensures a hassle-free experience by providing features like real-time car availability,secure user authentication, and an intuitive booking process. Customers can browse through a wide range of vehicles, compare options, and make informed choices tailored to their needs. For car rental providers, the platform enables efficient inventory management, ensuring accurate tracking and updates of vehicle statuses. With responsive design and robust backend functionalities, the system guarantees reliability, security, and ease of use across devices. By bridging the gap between renters and providers, this platform aims to save time, enhance convenience, and foster trust in the car rental process. It is an all-in-one solution for modern car rental requirements.",
+    "live_link": "https://ridesphere-303e8.web.app",
+    "name": "Rent a car service",
+    "image": "https://i.ibb.co.com/BZ5scqZ/Screenshot-2025-01-05-091659.png",
+    "github_link": "https://github.com/ad-monir2001/rent-car",
+    "to_improve": "Optimize rendering performance for large lists and add advanced search capabilities."
+  },
+  {
+    "id": 2,
+    "technology": ["react.js", "firebase", "tailwind", "mongodb"],
+    "description": "It is a platform designed for relaxation and casual entertainment, offering games with soothing visuals, calming music, and low-pressure gameplay. It’s perfect for unwinding, with simple mechanics and engaging experiences that prioritize fun over competition.",
+    "live_link": "https://chillgamer.netlify.app",
+    "name": "Game Reviews",
+    "image": "https://i.ibb.co.com/j52GzcC/Screenshot-2025-01-05-091742.png",
+    "github_link": "https://github.com/ad-monir2001/chill-gamer",
+    "to_improve": "Implement rate limiting and detailed API documentation."
+  },
+  {
+    "id": 3,
+    "technology": ["react.js", "firebase", "tailwind"],
+    "description": "Here you can easily find Bangladeshi popular E-commerce web coupon discounts.We serve our user updated about discounts where a user can easily find their best discount.Highlighting deals, offers, and discounts to attract customers.We help for seasonal or promotional sales events.Responsive Design: The layout adjusts well across laptop and large screen. Not phone and tab yet.",
+    "live_link": "https://programming-hero-assignm-250a7.web.app",
+    "name": "Coupon collector services",
+    "image": "https://i.ibb.co.com/xLh94GS/Screenshot-2025-01-05-091828.png",
+    "github_link": "https://github.com/ad-monir2001/coupon-collector",
+    "to_improve": "Enhance accessibility and create a dark mode toggle."
+  }
+]

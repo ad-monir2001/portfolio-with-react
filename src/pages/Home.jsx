@@ -2,6 +2,7 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
          <Hero></Hero>
          <About></About>
          <Skills></Skills>
+         <Projects></Projects>
       </div>
       <Footer></Footer>
     </div>
