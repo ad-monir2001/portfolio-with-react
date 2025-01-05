@@ -2,52 +2,55 @@ import { FiDownload } from 'react-icons/fi';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+  const scrollToSection = (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const links = (
     <div className="flex items-center  gap-3 lg:flex-row flex-col">
       <NavLink
-        to="education"
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg '
-            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
-        }
-      >
-        Education
-      </NavLink>
-      <NavLink
-      to='#about_me'
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
-        }
+        to="#about_me"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('about_me');
+        }}
+        className=" text-[#00ADB5] 
+             font-heading text-lg hover:transform transition duration-300 hover:scale-110"
       >
         About me
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
-        }
+        to="#skills"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('skills');
+        }}
+        className=" text-[#00ADB5] 
+             font-heading text-lg hover:transform transition duration-300 hover:scale-110"
       >
         Skills
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
-        }
+        to="#projects"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('projects');
+        }}
+        className=" text-[#00ADB5] 
+             font-heading text-lg hover:transform transition duration-300 hover:scale-110"
       >
         Projects
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? 'border-b-2 border-red-500 text-[#00ADB5] font-heading text-lg'
-            : 'text-white font-heading text-lg hover:transform transition duration-300 hover:scale-110'
-        }
+        to="contact"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('contact');
+        }}
+        className=" text-[#00ADB5] 
+             font-heading text-lg hover:transform transition duration-300 hover:scale-110"
       >
         Contact
       </NavLink>

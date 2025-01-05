@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <div className=" mx-auto w-11/12 gap-10 px-2">
-      <div className="flex flex-col justify-between md:flex-row items-center mx-auto my-4">
+      <div className="flex flex-col justify-between md:flex-row items-center gap-8 mx-auto my-4">
         {/* tests and links*/}
         <div className="text-white space-y-4 md:w-[700px]">
           <h1 className="font-heading text-3xl md:text-6xl font-semibold bg-gradient-to-br from-red-500 to-purple-600 bg-clip-text text-transparent">
