@@ -33,7 +33,7 @@ const Hero = () => {
             <a
               className="rounded px-3 font-semibold py-2 bg-[#00adb5] flex items-center gap-1 justify-center text-white border-none text-sm md:text-lg "
               download
-              href="/src/assets/Resume-demo.pdf"
+              href="/Resume-demo.pdf"
             >
               <FiDownload />
               Resume
