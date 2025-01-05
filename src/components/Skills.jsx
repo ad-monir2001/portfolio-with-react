@@ -6,7 +6,7 @@ const Skills = () => {
       </h1>
 
       {/* Frontend */}
-      <p className="italic text-center pt-2 text-4xl font-body text-[#00adb5]">
+      <p className="italic text-center pt-2 text-3xl font-body text-[#00adb5]">
         Frontend:
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
