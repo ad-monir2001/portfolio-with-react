@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
         {/* images */}
         <div>
-          <img className="" src="/public/monir.png" alt="Moniruzzaman Monir" />
+          <img className="" src="/monir.png" alt="Moniruzzaman Monir" />
         </div>
       </div>
     </div>
