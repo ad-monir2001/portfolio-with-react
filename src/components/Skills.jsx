@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/react.png"
+              src="/react.png"
               alt="react"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -45,7 +45,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/tailwind.png"
+              src="/tailwind.png"
               alt="react"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -75,7 +75,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/es6.png"
+              src="/es6.png"
               alt="JavaScript"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -105,7 +105,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/html.jpg"
+              src="/html.jpg"
               alt="Html"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -135,7 +135,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/css.png"
+              src="/css.png"
               alt="css"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -172,7 +172,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/firebase.png"
+              src="/firebase.png"
               alt="Firebase"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -202,7 +202,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/mongodb.png"
+              src="/mongodb.png"
               alt="mongodb"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -238,7 +238,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/git.png"
+              src="/git.png"
               alt="git"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -253,7 +253,7 @@ const Skills = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/github.jpg"
+              src="/github.jpg"
               alt="github"
               className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
             />

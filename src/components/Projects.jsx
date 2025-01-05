@@ -13,7 +13,7 @@ const Projects = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/rent_car.png"
+              src="/rent_car.png"
               alt="Rent a car"
               className="w-full relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -35,7 +35,7 @@ const Projects = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/chillgamer.png"
+              src="/chillgamer.png"
               alt="Chill gamer"
               className="w-full relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
@@ -56,7 +56,7 @@ const Projects = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
             <img
-              src="/public/coupon.png"
+              src="/coupon.png"
               alt="Coupon"
               className="w-full relative group-hover:scale-110 transition-transform duration-500 z-10"
             />
