@@ -8,7 +8,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log(e.target.form_name.value);
+
     emailjs
       .sendForm('service_jv6ek2w', 'template_8xq8pxa', form.current, {
         publicKey: '6SUYUvWDqamndxUqI',
