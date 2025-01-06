@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import SpotlightCard from './SpotlightCard';
 const Projects = () => {
   return (
     <section id="projects">

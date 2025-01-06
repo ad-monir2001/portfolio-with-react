@@ -1,4 +1,5 @@
 import { FiDownload } from 'react-icons/fi';
+
 import { GrLinkedin } from 'react-icons/gr';
 import { FaGithub } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
@@ -14,6 +15,8 @@ const Hero = () => {
 
   return (
     <div className=" mx-auto w-11/12 gap-10 px-2">
+      
+
       <div className="flex flex-col justify-between md:flex-row items-center gap-8 mx-auto my-4">
         {/* tests and links*/}
         <div className="text-white space-y-4 md:w-[700px]">
