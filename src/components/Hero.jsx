@@ -4,6 +4,9 @@ import { FaGithub } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
+import BlurText from './BlurText';
+import SplitText from './SplitText';
+
 const Hero = () => {
   const handleDone = () => {
     console.log(`Done after 5 loops!`);
@@ -14,9 +17,26 @@ const Hero = () => {
       <div className="flex flex-col justify-between md:flex-row items-center gap-8 mx-auto my-4">
         {/* tests and links*/}
         <div className="text-white space-y-4 md:w-[700px]">
-          <h1 className="font-heading text-3xl md:text-6xl font-semibold bg-gradient-to-br from-red-500 to-purple-600 bg-clip-text text-transparent">
-            I'm Moniruzzaman Monir,
-          </h1>
+          <BlurText
+            text="Welcome to my portfolio!"
+            delay={150}
+            animateBy="words"
+            direction="top"
+            className="text-2xl"
+          />
+          
+
+          <SplitText
+            text="I'm Moniruzzaman Monir,"
+            className="text-5xl font-semibold font-heading  text-center bg-gradient-to-br from-red-500 to-purple-600 bg-clip-text "
+            delay={150}
+            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+            easing="easeOutCubic"
+            threshold={0.2}
+            rootMargin="-50px"
+          />
+          <br />
           <span className="md:text-2xl text-xl font-body italic text-[#00ADB5]">
             <Typewriter
               words={['Frontend Developer', 'MERN Stack Developer']}

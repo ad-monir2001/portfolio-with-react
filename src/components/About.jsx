@@ -1,3 +1,4 @@
+import ShinyText from './ShinyText';
 const About = () => {
   return (
     <section id="about_me">
@@ -28,7 +29,8 @@ const About = () => {
               Programming Journey:
             </span>{' '}
             <br />
-            My journey into programming began when I was in class seven and
+            <ShinyText
+              text="My journey into programming began when I was in class seven and
             first discovered the internet. I was instantly captivated by the
             idea of creating something of my own on the web. While browsing
             various websites, I dreamt of building one myself, but at the time,
@@ -37,8 +39,12 @@ const About = () => {
             my intermediate exams, I finally managed to buy a personal computer.
             That marked the true beginning of my programming exploration. I
             started as a self-learner with Python, but after 2.5 months of
-            effort, I felt overwhelmed and frustrated.
-            <br /> <br />
+            effort, I felt overwhelmed and frustrated."
+              disabled={false}
+              speed={3}
+              className="custom-class"
+            />
+            <br /> 
             Realizing I needed a clearer path, I shifted my focus to web
             development, diving into HTML, CSS, and JavaScript. However,
             progress was slow, and I struggled to advance further on my own.

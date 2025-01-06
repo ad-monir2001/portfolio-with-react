@@ -1,3 +1,4 @@
+import AnimatedContent from './AnimatedContent';
 const Skills = () => {
   return (
     <section id="skills">
@@ -11,156 +12,211 @@ const Skills = () => {
           Frontend:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
-          {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/react.png"
-                alt="react"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              React.js
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '85%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            {/* card */}
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/react.png"
+                  alt="react"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  85%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                React.js
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '85%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    85%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/tailwind.png"
-                alt="react"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              Tailwind CSS
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '95%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/tailwind.png"
+                  alt="react"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  95%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                Tailwind CSS
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '95%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    95%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/es6.png"
-                alt="JavaScript"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              JavaScript (ES6+)
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '90%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/es6.png"
+                  alt="JavaScript"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  90%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                JavaScript (ES6+)
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '90%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    90%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/html.jpg"
-                alt="Html"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              HTML5
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '96%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/html.jpg"
+                  alt="Html"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  96%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                HTML5
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '96%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    96%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/css.png"
-                alt="css"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              CSS3
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '95%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/css.png"
+                  alt="css"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  95%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                CSS3
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '95%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    95%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
         </div>
 
         {/* Backend and database */}
@@ -169,65 +225,87 @@ const Skills = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-4">
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/firebase.png"
-                alt="Firebase"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              Firebase
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '89%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/firebase.png"
+                  alt="Firebase"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  89%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                Firebase
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '89%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    89%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
           {/* card */}
-          <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
-              <img
-                src="/mongodb.png"
-                alt="mongodb"
-                className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
-              />
-            </div>
-
-            <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
-              MongoDB
-            </p>
-
-            <div className="flex flex-col items-center w-full space-y-2">
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                  style={{ width: '82%' }}
+          <AnimatedContent
+            distance={150}
+            direction="vertical"
+            reverse={false}
+            config={{ tension: 80, friction: 20 }}
+            initialOpacity={0.2}
+            animateOpacity
+            scale={1.1}
+            threshold={0.2}
+          >
+            <div className="group bg-gradient-to-br from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 transition-all duration-500 flex flex-col items-center rounded-xl p-6 cursor-pointer transform hover:-translate-y-1 hover:shadow-2xl shadow-lg w-[250px] md:w-full  mx-auto border border-gray-200">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-500 blur" />
+                <img
+                  src="/mongodb.png"
+                  alt="mongodb"
+                  className="w-24 h-24 relative group-hover:scale-110 transition-transform duration-500 z-10"
                 />
               </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                  82%
-                </span>
+              <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
+                MongoDB
+              </p>
+
+              <div className="flex flex-col items-center w-full space-y-2">
+                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
+                    style={{ width: '82%' }}
+                  />
+                </div>
+
+                <div className="flex items-center space-x-2">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
+                    82%
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimatedContent>
         </div>
         {/* version control */}
         <p className="italic text-center pt-2 text-3xl font-body text-[#00adb5]">
