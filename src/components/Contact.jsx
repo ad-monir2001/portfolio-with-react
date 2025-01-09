@@ -16,7 +16,6 @@ const Contact = () => {
       .then(
         () => {
           toast.success('Successfully send your message!');
-          form.reset();
         },
         (error) => {
           toast.error('FAILED...', error.text);
@@ -25,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section id="contact">
       <div>
         <h1 className="font-heading text-white font-bold text-4xl text-center italic">
           <span className="border-b border-[#00adb5]">Contact me</span>{' '}
@@ -62,10 +61,16 @@ const Contact = () => {
             <form ref={form} onSubmit={handleSubmit} className="space-y-6">
               <div className="flex gap-4">
                 <div className="flex-1">
-                  <label className="block text-sm font-medium mb-2">Name</label>
+                  <div className="flex">
+                    <label className="block text-sm font-medium mb-2 text-white">
+                      Name
+                    </label>
+                    <span className="text-red-500">*</span>
+                  </div>
                   <input
                     name="from_name"
                     type="text"
+                    required
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder="Enter Your Name"
                   />
@@ -77,26 +82,34 @@ const Contact = () => {
 
               <div className="flex gap-4">
                 <div className="flex-1">
-                  <label className="block text-sm font-medium mb-2">
-                    Email
-                  </label>
+                  <div className="flex">
+                    <label className="block text-sm font-medium mb-2 text-white">
+                      Email
+                    </label>
+                    <span className="text-red-500">*</span>
+                  </div>
                   <input
                     type="email"
                     name="from_email"
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder="Enter Your Email"
+                    required
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-2">
-                  Message
-                </label>
+                <div className="flex">
+                  <label className="block text-sm font-medium mb-2 text-white">
+                    Message
+                  </label>
+                  <span className="text-red-500">*</span>
+                </div>
                 <textarea
                   name="message"
                   className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent h-32"
                   placeholder="Write Your Message"
+                  required
                 ></textarea>
               </div>
 
