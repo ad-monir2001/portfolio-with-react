@@ -6,7 +6,7 @@
     "live_link": "https://ridesphere-303e8.web.app",
     "name": "Rent a car service",
     "image": "https://i.ibb.co.com/BZ5scqZ/Screenshot-2025-01-05-091659.png",
-    "github_link": "https://github.com/ad-monir2001/rent-car",
+    "github_link": "https://github.com/ad-monir2001/rent-a-car",
     "to_improve": "Optimize rendering performance for large lists and add advanced search capabilities."
   },
   {
@@ -16,7 +16,7 @@
     "live_link": "https://chillgamer.netlify.app",
     "name": "Game Reviews",
     "image": "https://i.ibb.co.com/j52GzcC/Screenshot-2025-01-05-091742.png",
-    "github_link": "https://github.com/ad-monir2001/chill-gamer",
+    "github_link": "https://github.com/ad-monir2001/chill-gamer-client",
     "to_improve": "Implement rate limiting and detailed API documentation."
   },
   {
