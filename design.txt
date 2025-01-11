@@ -1,5 +1,0 @@
-body color: #212428
-
-heading: #00ADB5
-
-bg: #222831
