@@ -19,6 +19,7 @@
     "github_link": "https://github.com/ad-monir2001/chill-gamer-client",
     "to_improve": "Implement rate limiting and detailed API documentation."
   },
+
   {
     "id": 3,
     "technology": ["react.js", "firebase", "tailwind"],
@@ -28,5 +29,15 @@
     "image": "https://i.ibb.co.com/xLh94GS/Screenshot-2025-01-05-091828.png",
     "github_link": "https://github.com/ad-monir2001/coupon-collector-real",
     "to_improve": "Enhance accessibility and create a dark mode toggle."
+  },
+  {
+    "id": 4,
+    "technology": ["React.js", "Firebase", "tailwind","mongodb","express.js","Stripe","Jwt Authentication"],
+    "description": "I'm thrilled to introduce EduFusion, a Collaborative Study Platform designed to enhance the learning experience for students and educators. Built with modern web technologies, EduFusion offers a seamless and interactive way to manage and access educational content. EduFusion is a dynamic and collaborative study platform designed with Dashboard for Admin, Tutor and Student. To enhance learning experiences for students and educators alike. Built with cutting-edge web technologies, EduFusion simplifies educational collaboration, secure authentication, and seamless payment handling.",
+    "live_link": "https://edufusion-f285c.web.app",
+    "name": "EduFusion",
+    "image": "https://i.ibb.co.com/m5q2XTnP/Screenshot-2025-02-02-092432.png",
+    "github_link": "https://github.com/ad-monir2001/EduFusion-client",
+    "to_improve": "..."
   }
 ]
