@@ -36,21 +36,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 React.js
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '85%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    85%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
           {/* card */}
@@ -77,21 +62,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 Tailwind CSS
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '95%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    95%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
           {/* card */}
@@ -118,21 +88,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 JavaScript (ES6+)
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '90%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    90%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
           {/* card */}
@@ -159,21 +114,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 HTML5
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '96%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    96%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
           {/* card */}
@@ -200,21 +140,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 CSS3
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '95%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    95%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
         </div>
@@ -248,21 +173,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 Firebase
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '89%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    89%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
           {/* card */}
@@ -289,21 +199,6 @@ const Skills = () => {
               <p className="text-gray-800 font-semibold text-xl mt-4 mb-3 font-body">
                 MongoDB
               </p>
-
-              <div className="flex flex-col items-center w-full space-y-2">
-                <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000"
-                    style={{ width: '82%' }}
-                  />
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-lg">
-                    82%
-                  </span>
-                </div>
-              </div>
             </div>
           </AnimatedContent>
         </div>
