@@ -10,7 +10,7 @@ const Footer = () => {
       </aside>
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a>
+        <a href='https://x.com/monir01784' target='_blank'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -22,7 +22,7 @@ const Footer = () => {
           </svg>
         </a>
 
-        <a>
+        <a href='https://www.facebook.com/mdmoniruzzaman.monir.73700/' target='_blank'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
