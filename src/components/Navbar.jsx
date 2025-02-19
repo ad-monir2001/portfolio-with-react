@@ -96,7 +96,7 @@ const Navbar = () => {
           <a
             className="rounded px-3 font-semibold py-2 bg-[#00adb5] text-white border-none text-sm md:text-lg flex items-center gap-1 hover:transform transition duration-300 hover:scale-110"
             download
-            href="/Resume-demo.pdf"
+            href="/resume-of-monir.pdf"
           >
             <FiDownload />
             Resume

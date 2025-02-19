@@ -50,7 +50,7 @@ const Projects = () => {
     },
   };
   return (
-    <section className="min-h-screen bg-gray-900 py-16 px-4">
+    <section className="min-h-screen bg-gray-900 py-16 px-4 " id="projects">
       <div className="max-w-7xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
